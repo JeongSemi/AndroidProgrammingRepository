@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mycompany.myapplication.activity.HomeActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnUIActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="handleBtnUIActivity"
+        android:text="UIActivity로 이동"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="134dp"
+        tools:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnWebBrowser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="handleBtnWebBrowser"
+        android:text="WebBrowser로 이동"
+        tools:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnDialActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="handleBtnDialActivity"
+        android:text="DialActivity로 이동"
+        tools:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btnMapActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="handleBtnMapAcitivity"
+        android:text="MapActivity로 이동"
+        tools:textAllCaps="false"/>
+</LinearLayout>
