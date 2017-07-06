@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnMessageDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="handleBtnMessageDialog"
+        android:text="메시지 다이얼로그" />
+
+    <Button
+        android:id="@+id/btnListDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="handleBtnListDialog"
+        android:text="목록 다이얼로그" />
+
+    <Button
+        android:id="@+id/btnSingleChoiceDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="handleBtnSingleChoiceDialog"
+        android:text="단일 선택 다이얼로그" />
+
+    <Button
+        android:id="@+id/btnMultiChoiceDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="handleBtnMultiChoiceDialog"
+        android:text="복수 선택 다이얼로그" />
+
+    <Button
+        android:id="@+id/btnStickProgressDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="handleBtnStickProgressDialog"
+        android:text="막대 진행 다이얼로그" />
+
+    <Button
+        android:id="@+id/btnCircleProgressDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="handleBtnCircleProgressDialog"
+        android:text="계속 진행 다이얼로그" />
+
+    <Button
+        android:id="@+id/btnCustomDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="handleBtnCustomDialog"
+        android:text="사용자 정의 다이얼로그" />
+
+</LinearLayout>
