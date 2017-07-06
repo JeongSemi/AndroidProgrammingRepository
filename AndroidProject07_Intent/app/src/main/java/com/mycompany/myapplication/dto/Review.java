@@ -1,6 +1,8 @@
 package com.mycompany.myapplication.dto;
 
-public class Review {
+import java.io.Serializable;
+
+public class Review implements Serializable{
     private int photo;
     private String title;
     private int star;

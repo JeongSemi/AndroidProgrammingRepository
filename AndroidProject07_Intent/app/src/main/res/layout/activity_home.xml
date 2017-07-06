@@ -40,4 +40,25 @@
         android:onClick="handleBtnMapAcitivity"
         android:text="MapActivity로 이동"
         tools:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btnDataSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="handleBtnDataSend"
+        android:text="데이터 전달" />
+
+    <Button
+        android:id="@+id/btnReturnValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="handleBtnReturnValue"
+        android:text="리턴값받기" />
+
+    <Button
+        android:id="@+id/btnFileSelect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="handleBtnFileSelect"
+        android:text="파일 선택" />
 </LinearLayout>
